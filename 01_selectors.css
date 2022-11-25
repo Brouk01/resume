@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container {
+padding: 30px;
+max-width: 750px;
+margin: auto
+
+}
+.picture {
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 200px;
+}
+body {
+    font: normal 18px'Roboto', sans-serif;
+background-color: rgb(252, 204, 212);
+color: #101622
+
+}
+.text2 h4 {
+    margin-bottom: 5px;
+}
+a {
+    color: #0646c5;
+    text-decoration: none;
+    margin-bottom: 25px;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+}
+a:active {
+    color: orange;
+}
+.text2  {
+font-size: 18px;
+font-weight: bold;
+font-style: italic;
+
+border-radius: 10px;
+}
+.card {
+
+border-radius: 10px;
+padding: 15px 20px;
+margin-bottom: 20px;
+}
+.bg-red {
+    background-color: rgb(109, 196, 250);
+}
+
+.bg-black {
+    background: rgb(255, 168, 133);
+    margin-top: 20px;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    
+    padding: 15px ;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+
+}
+.gang {
+    padding: 0 20px;
+}
+.blocks {
+    display: flex;
+}
+.text {
+    margin-left: 40px;
+}
+.gang li {
+    margin-bottom: 10px;
+    
+}
+.table {
+    width: 100%;
+}
+.table th {
+    
+    color: black;
+}
+.table td:nth-child(3) {
+    color: rgb(12, 2, 107);
+
+}
+.form h3 {
+    text-align: center;
+}
+.form-g label {
+    display: block;
+    font-size: 15px;
+
+}
+.form-po .form-g
+ {
+    width: 50%;
+    margin-right: 20px;
+   
+}
+.form-po {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-g input, 
+.form-g textarea {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #101622;
+    color: #101622;
+    background: transparent;
+    width: 100%;
+    padding: 15px 0 10px;
+
+}
+@media (max-width: 650px) {
+    .blocks {
+        
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }
+}
